@@ -48,7 +48,7 @@ export default class App extends Component {
       
       <SafeAreaView style={{ flex: 1, backgroundColor: 'black' }}>
 
-        <ScrollView contentContainerStyle={{ flex: 1 }}>
+        <ScrollView contentContainerStyle={{ flex: 1}}>
 
           {/* Logo Image */}
           <View style={{ flex: 1 }}>
@@ -60,9 +60,9 @@ export default class App extends Component {
 
 
           </View>
-          <View style={[styles.supContainer, { flex: 0.5  }]}>
+          <View style={[styles.supContainer, { flex: 0.5 }]}>
 
-            <Text style={ {fontSize:38, color:'white', fontWeight: 'bold'}}>
+            <Text style={ { fontSize:38, color:'white', fontWeight: 'bold'}}>
               Sign In
             
             </Text>
@@ -145,7 +145,7 @@ export default class App extends Component {
 
 
           {/* Bottom */}
-          <View style={[styles.supContainer, { flex: 1  }]}>
+          <View style={[styles.supContainer, { flex: 0.5 }]}>
 
             <Text style={styles.mainText}>
               New to Netflix?
